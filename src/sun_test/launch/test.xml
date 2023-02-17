@@ -2,9 +2,6 @@
 
   <group ns="pub">
     <node pkg="sun_test" name="pub1" type="pub"/>
-  </group>
-
-  <group ns="sub">
     <node pkg="sun_test" name="sub1" type="sub"/>
     <node pkg="sun_test" name="sub2" type="sub"/>
   </group>
