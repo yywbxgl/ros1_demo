@@ -7,7 +7,7 @@ JOYSON_WROKSPACE="/workspace"
 display="${DISPLAY:-:0}"
 
 docker run  \
-        -it --privileged=true  \
+        -it --privileged=true  --network=host\
         -w ${JOYSON_WROKSPACE} \
         -v ${TOP_DIR}:${JOYSON_WROKSPACE} \
         --hostname "ros1-docker" \
